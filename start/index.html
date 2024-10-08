@@ -6,17 +6,26 @@
     <title>Relecloud Galaxy Tours</title>
     <link rel="stylesheet" href="./assets/styles.css" />
     <!-- TODO: Import Vue.js core library -->
-
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js" alt="spaceAlt"></script>
 </head>
 
 <body>
-    <div class="nav-bar"></div>
-    <h1>Relecloud Galaxy Tours</h1>
 
-    <!-- TODO: Add information display -->
+    <div id='app'>
+        <p v:data>
+            {{firstName}} , {{lastName}}
+        </p>
+        <img :src="spaceShip">
 
+    </div>
+    <div class="nav-bar">
+    </div>
     
-    <!-- TODO: Import Vue app -->
+    <script src="assets/script.js">
+        
+    </script>
+    
+
 
 </body>
 
