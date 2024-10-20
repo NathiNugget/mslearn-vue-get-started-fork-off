@@ -4,7 +4,13 @@ const App = Vue.createApp({
         return {
             firstName: 'Christopher',
             lastName: 'Harrison',
-            spaceShip: 'assets/images/spaceship-5730066-1284x856.jpg'
+            productName: 'Coke', 
+            productDescription: 'A nice, cold soda filled to the brim with the thirst-quenching taste and feel of coke',
+            spaceShip: 'assets/images/spaceship-5730066-1284x856.jpg',
+            spaceShipDescription: 'Hello there!',
+            spaceShipStyle: {
+                'border-radius': '15px',
+            }
         };
     }
 });
